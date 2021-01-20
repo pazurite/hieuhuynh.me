@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: map-get($font-families, rubik);
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.clickable {
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.block {
+  width: 100%;
+}
+.underline {
+  text-decoration: underline;
+}
+.hidden {
+  opacity: 0;
+}
+.overflow-y-hidden {
+  // disable scroll when navigation drawer activated
+  overflow-y: hidden !important;
+}
+
+@include css-generator($z-layers, z, z-index);

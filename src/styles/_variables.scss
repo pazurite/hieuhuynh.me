@@ -1,0 +1,105 @@
+$max-page-width: 1440px;
+$header-height: 88px;
+$default-input-height: 50px;
+$default-input-padding: 16px;
+
+$font-weight: (
+  thin: 100,
+  extra-light: 200,
+  ultra-light: 200,
+  light: 300,
+  normal: 400,
+  book: 400,
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  demi-bold: 600,
+  bold: 700,
+  extra-bold: 800,
+  ultra-bold: 900,
+  heavy: 900,
+  black: 900,
+  ultra: 900,
+  ultra-black: 900,
+  extra-ultra: 900,
+);
+
+$breakpoints: (
+  xxxs: 375,
+  xxs: 450,
+  xs: 600,
+  sm: 768,
+  md: 1024,
+  lg: 1280,
+  xl: 1904,
+);
+
+$spacers: (
+  xxs: (
+    md: 16px,
+    lg: 24px,
+  ),
+  xl: (
+    xxs: 4px,
+    xs: 8px,
+    sm: 16px,
+    md: 24px,
+    lg: 32px,
+    xl: 64px,
+    xxl: 80px,
+    xxxl: 128px,
+  ),
+);
+
+$container-spacing: (
+  sm: 16px,
+  md: 32px,
+  lg: 90px,
+  xl: 120px,
+);
+
+$sizes: xs, sm, md, lg, xl, xxl, xxxl, xxxxl, xxxxxl;
+
+$font-base-size: 10px;
+
+$min-font-size: 9px;
+
+$type-scale: (
+  default: (
+    title-0: 3.6,
+    title-6: 2,
+    subtitle-0: 1.8,
+    heading-0: 3.2,
+    heading-1: 2.5,
+    paragraph: 1.6,
+  ),
+  xxs: 0.5,
+  xs: 0.6,
+  sm: 0.7,
+  md: 0.8,
+  lg: 0.9,
+  xl: 1,
+);
+
+$white-spaces: normal, nowrap, pre, pre-line, pre-wrap, initial, inherit;
+
+$word-break: normal, break-all, keep-all, break-word, initial, inherit;
+
+$alignments: left, center, right;
+
+$z-layers: (
+  max: 9999999,
+  menu: 600,
+  overlay: 200,
+  fullscreen: 170,
+  modal: 160,
+  header: 100,
+  footer: 90,
+  banner: 20,
+  logo: 11,
+  content: 10,
+  shape: 5,
+  base: 1,
+);
+
+$banner-height: 560px;
